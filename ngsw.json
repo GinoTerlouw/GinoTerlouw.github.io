@@ -1,0 +1,55 @@
+{
+  "configVersion": 1,
+  "timestamp": 1556891593091,
+  "index": "https://ginoterlouw.github.io/amstapper.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "amstapper",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ginoterlouw.github.io/amstapper.github.io/favicon.ico",
+        "https://ginoterlouw.github.io/amstapper.github.io/index.html",
+        "https://ginoterlouw.github.io/amstapper.github.io/main.d7ec97562ed520b7e787.js",
+        "https://ginoterlouw.github.io/amstapper.github.io/polyfills.70797e53fbee1004e841.js",
+        "https://ginoterlouw.github.io/amstapper.github.io/runtime.26209474bfa8dc87a77c.js",
+        "https://ginoterlouw.github.io/amstapper.github.io/styles.cbc8b5f573eb759b3548.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ginoterlouw.github.io/amstapper.github.io/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://ginoterlouw.github.io/amstapper.github.io/index.html": "32b339c2e889e8d0628a2e7f53b95eb21240f94d",
+    "https://ginoterlouw.github.io/amstapper.github.io/main.d7ec97562ed520b7e787.js": "d8753e524decd8bf6e973adabc9ebe0bf1c9a9c5",
+    "https://ginoterlouw.github.io/amstapper.github.io/polyfills.70797e53fbee1004e841.js": "9523895b2983416284537971454a8e67b59b13ec",
+    "https://ginoterlouw.github.io/amstapper.github.io/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://ginoterlouw.github.io/amstapper.github.io/styles.cbc8b5f573eb759b3548.css": "3c6bfb93a7d8990bac67539500306a6d4838339f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
